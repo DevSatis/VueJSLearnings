@@ -1,6 +1,9 @@
 <template>
   <div>
-   <Greet />
+   <Greet name = "Satish"  heroName = "Sintu"/>
+   <Greet name = "Dev" heroName="Dwit" />
+   <Greet name = "Kumar" heroName="Darling"/>
+   <Greet :name = "name" :heroName= "channel"/>
    <Test />
   </div>
    
@@ -15,7 +18,12 @@
   components:{
     Greet,
     Test,
-
+  },
+  data(){
+    return {
+      name:"Satish", 
+      channel: "True Coder"
+    }
   }
  }
 </script>
