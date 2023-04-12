@@ -1,5 +1,5 @@
 <template >
-    <div class="container-fluid">
+    <div class="container-fluid header">
         <div class="row  align-items-center">
             <div class="col-sm-6 text-left">
                 <i> Back  </i> 
@@ -27,8 +27,7 @@ export default {
 </script>
 <style scoped>
 .header{
-    border: 2px solid red;
-    height: 188px;
+    background-color: white;
 }
 .row{
     border-bottom: 1px solid #eee;
